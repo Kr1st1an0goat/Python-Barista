@@ -6,24 +6,6 @@ Project Overview
 
 ND1's Barista v0.1 is a console-based coffee order simulation program developed by Kr1st14n0. Users can view a menu, place orders with quantities, calculate totals including tax, select a payment method, and save all order history to a structured JSON file. This project demonstrates Python fundamentals, data structures, file handling, and problem-solving skills, making it an excellent addition to a developer portfolio.
 
-Features
-
-Display a coffee menu with prices
-
-Take multiple orders with quantities
-
-Automatically calculate total price and tax (10% by default)
-
-Save orders in a structured JSON file as a mini-database
-
-Support multiple payment types: Cash, Card (Debit/Credit)
-
-Assign unique order numbers for each order
-
-Display a detailed order summary at the end
-
-Python Code
-
 
 import json
 import os
@@ -130,43 +112,10 @@ Example:
   }
 ]
 
-Future Enhancements
-
-Add timestamp to each order in the JSON database
-
-Check for returning customers and greet them differently
-
-Show prices next to each item in the billing (price × quantity)
-
-Create separate JSON files for each day instead of storing all orders in one file
-
-Generate receipt numbers for every order
-
-Display a polished ending message before program exit
-
-How to Run
-
-Clone the repository:
-
-git clone https://github.com/<your-username>/ND1s-Barista-v0.1.git
 
 
-Navigate to the project folder:
+#Author & Rights
 
-cd ND1s-Barista-v0.1
-
-
-Run the program:
-
-python barista.py
-
-
-Follow the on-screen prompts to place your order.
-
-
-
-Author & Rights
-
-Author: Kr1st14n0
-Copyright: © 2025 Kr1st14n0. All rights reserved.
-This project and all its code, documentation, and assets are the intellectual property of Kr1st14n0. Unauthorized copying, distribution, or commercial use is prohibited.
+#Author: Kr1st14n0
+#Copyright: © 2025 Kr1st14n0. All rights reserved.
+#This project and all its code, documentation, and assets are the intellectual property of Kr1st14n0. Unauthorized #copying, distribution, or commercial use is prohibited.
